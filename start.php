@@ -13,11 +13,20 @@ function elgg_update_services_init() {
 }
 
 function elgg_update_services_get_updates() {
-	$installed_plugins = elgg_get_plugins('active');
+	$installed_plugins = elgg_get_plugins('all');
 
+	$plugin_hash_list = array();
 	foreach ($installed_plugins as $id => $plugin) {
-		if (!in_array('bundled', $plugin->getManifest()->getCategories())) {
-			$plugin_hash_list[] = md5($plugin->getID() . $plugin->getManifest()->getVersion() . $plugin->getManifest()->getAuthor());
+		$manifest = $plugin->getManifest();
+		$bundled = in_array('bundled', $manifest->getCategories()) ? true : false;
+		if (!$bundled) {
+			$id = $manifest->getID();
+			if (empty($id)) {
+				$id = $plugin->getID();
+			}
+			$version = $manifest->getVersion();
+			$author = $manifest->getAuthor();
+			$plugin_hash_list[] = md5($id . $version . $author);
 		}
 	}
 

@@ -1,10 +1,15 @@
-Elgg Update Services for Elgg 1.9
-Latest Version: 1.9.0
-Released: 2015-01-10
-Contact: iionly@gmx.de
-License: GNU General Public License version 2
+Elgg Update Services for Elgg 1.9 - 1.12 and Elgg 2.X
+=====================================================
+
+Latest Version: 1.9.1  
+Released: 2015-09-23  
+Contact: iionly@gmx.de  
+License: GNU General Public License version 2  
 Copyright: (C) iionly - 2014, (C) Ray J - 2011
 
+
+Description
+-----------
 
 The Elgg Update Services plugin will check the plugin repository on the Elgg Community site for updates of plugins installed on your site and notifies you by email about new plugin releases. This plugin has been developed originally by Ray J. I've taken over maintaining it from Ray J because he lacks the time to develop it any further.
 
@@ -13,34 +18,24 @@ The automatic check for updates is partly randomized to avoid too much load for 
 If a new version for a plugin is found, you will have the options to visit the corresponding plugin's page on the Elgg Community site and/or to directly download the latest available version.
 
 
-Requirements:
+Requirements
+------------
 
 * Elgg "hourly" cron enabled,
 * HTTP requests using port 80 between your site and Elgg comunity. Check with your host provider if in doubt.
 
 
-Install instructions:
+Install instructions
+--------------------
 
-1. Copy/extract the elgg_update_services archive into the mod folder,
-
-2. Enable the elgg_update_services plugin,
-
-3. Optionally, enter an email address on the Elgg Update Services plugin settings page to receive notifications about plugin updates available.
-
-
-Changelog:
-
-Version 1.9.0 (iionly)
-
-* Updated to work on Elgg 1.9,
-* Fix of deprecation issues,
-* Some code cleanup,
-* Excluding 'bundled' categorized plugins instead of 'core developers' authored plugins in the update check,
-* Addition of a German language file.
+1. If you have a previous version of the Elgg Update Services plugin installed, first remove the old elgg_update_services plugin folder from your mod directory before copying/extracting the new version to your server,
+2. Copy/extract the elgg_update_services archive into the mod folder,
+3. Enable the elgg_update_services plugin,
+4. Optionally, enter an email address on the Elgg Update Services plugin settings page to receive notifications about plugin updates available.
 
 
-
-Thanks (by Ray J):
+Thanks (by Ray J)
+-----------------
 
 * A big "thank you" to Cash for develop the community webservices and for the relentless support.
 * A great "hello" to the Brazilian community. You rules, my friends.
