@@ -1,8 +1,8 @@
-Elgg Update Services for Elgg 1.9 - 1.12 and Elgg 2.X
-=====================================================
+Elgg Update Services for Elgg 2.3 and newer Elgg 2.X
+====================================================
 
-Latest Version: 1.9.1  
-Released: 2015-09-23  
+Latest Version: 2.3.2  
+Released: 2019-04-06  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (C) iionly - 2014, (C) Ray J - 2011

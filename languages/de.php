@@ -1,5 +1,5 @@
 <?php
-return array(
+return [
 	'admin:administer_utilities:manageupdate' => "Updates verwalten",
 	'elgg_update_services:main_title' => "Elgg Update Services",
 	'elgg_update_services:no_updates' => "Es sind keine Updates verfügbar.",
@@ -12,5 +12,5 @@ return array(
 	'elgg_update_services:mail_plugin_version' => "Version: ",
 	'elgg_update_services:mail_plugin_url' => "Adresse: ",
 	'elgg_update_services:mail_download_url' => "Direkter Download: ",
-	'elgg_update_services:notify_mail_address' => "Benachrichtigungen über Updates von Plugins an folgende Email-Adresse schicken"
-);
+	'elgg_update_services:notify_mail_address' => "Benachrichtigungen über Updates von Plugins an folgende Email-Adresse schicken",
+];

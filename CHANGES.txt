@@ -1,13 +1,20 @@
 Changelog
 =========
 
+2.3.2
+-----
+
+* Requires Elgg 2.3 at minimum,
+* Updated community site url to check for plugin updates,
+* No longer show "count(): Parameter must be an array or an object that implements Countable" warning on PHP 7.2,
+* Code cleanup and update (usage of Elgg 2.3 API functions in forms).
+
 1.9.1
 -----
 
+* Made check for new plugin versions to work again (stopped working because the exclusion of plugins with the "bundled" category failed to work as intended resulting in no plugins getting checked at all...),
 * Tested also on Elgg 2.0 (i.e. it should work on any future Elgg 2.X versions, too),
-* composer.json added,
-* Check not only activated but all plugins for new releases,
-* Server-side fix on Elgg Community site (available since 2015/09/23) necessary for the check for updates working again (thanks also to Matt for helping out with this issue).
+* composer.json added.
 
 1.9.0
 -----

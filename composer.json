@@ -1,13 +1,13 @@
 {
     "name": "iionly/elgg_update_services",
-    "description": "HCheck for plugin updates on the Elgg Community site.",
+    "description": "Check for plugin updates on the Elgg Community site.",
     "type": "elgg-plugin",
     "keywords": [
         "elgg",
         "plugin"
     ],
     "homepage": "https://github.com/iionly/elgg_update_services",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "iionly",
