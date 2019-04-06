@@ -1,6 +1,6 @@
 <?php
 
-function elgg_update_services_cron($hook, $entity_type, $returnvalue, $params) {
+function elgg_update_services_cron(\Elgg\Hook $hook) {
 	// Retrieve the next execution date
 	$execution_date = elgg_get_plugin_setting('execution_date', 'elgg_update_services');
 

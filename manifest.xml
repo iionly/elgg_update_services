@@ -3,13 +3,13 @@
 	<name>Elgg Update Services</name>
 	<id>elgg_update_services</id>
 	<author>iionly, Ray J</author>
-	<version>2.3.2</version>
+	<version>3.0.0</version>
 	<description>Check for plugin updates on the Elgg Community site.</description>
 	<website>https://github.com/iionly</website>
 	<copyright>(C) iionly - 2014, (C) Ray J - 2011</copyright>
 	<license>GNU Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>2.3.0</version>
+		<version>3.0.0</version>
 	</requires>
 </plugin_manifest>
