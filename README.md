@@ -1,8 +1,8 @@
 Elgg Update Services for Elgg 3.X
 =================================
 
-Latest Version: 3.0.0  
-Released: 2019-04-06  
+Latest Version: 3.0.1  
+Released: 2019-04-07  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (C) iionly - 2014, (C) Ray J - 2011

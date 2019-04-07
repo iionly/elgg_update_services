@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.0.1
+-----
+
+* No longer use deprecated elgg_register_admin_menu_item().
+
 3.0.0
 -----
 
